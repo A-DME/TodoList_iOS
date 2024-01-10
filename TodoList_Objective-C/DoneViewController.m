@@ -169,7 +169,7 @@
     }
     
     [details setTodohaya:t :(int)[_todos indexOfObject:t]];
-    [details setScreenIndex:1];
+    [details setScreenIndex:2];
     [self.navigationController pushViewController:details animated:YES];
 }
 

@@ -175,7 +175,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="filter:" destination="isa-rf-29j" eventType="touchUpInside" id="AQj-FH-x2x"/>
+                                    <action selector="filterTodos:" destination="isa-rf-29j" eventType="touchUpInside" id="rfe-iV-Bpb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Done" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3r-dg-WgW">

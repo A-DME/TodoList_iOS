@@ -209,9 +209,10 @@
     _savedData = [_defaults objectForKey:@"todoslist"];
     
     NSError *err;
-    
     _todos = (NSArray*) [NSKeyedUnarchiver unarchivedArrayOfObjectsOfClass:[Todohaya class] fromData:_savedData error:&err];
+    
     _doneTodos = [self filterToDoneArray:_todos];
+    
     if(_withSection){
         _htodos = [self filterToSectionArray: _doneTodos :0];
         _mtodos = [self filterToSectionArray: _doneTodos :1];
